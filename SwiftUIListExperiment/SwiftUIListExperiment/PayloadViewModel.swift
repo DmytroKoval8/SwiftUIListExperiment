@@ -12,16 +12,13 @@ class PayloadViewModel: ObservableObject {
         DispatchQueue.global(qos: .userInitiated).async { [weak self] in
             guard let self = self else { return }
             for id in 0..<300 {
-                autoreleasepool {
-                    
-                    let uiImage = self.generateRandomImage(width: 100, height: 100)
-                    let image = Image(uiImage: uiImage)
-                    let payload = Payload(id: id, image: image)
+                    let imageNumber = (id % 100) + 1 // This will cycle from 1 to 100
+                    let imagePath = String(format: "%03d_apple", imageNumber)
+                    let payload = Payload(id: id, imagePath: imagePath)
                     DispatchQueue.main.async {
                         self.payloads.append(payload)
                     }
                     print("Image \(id) generated")
-                }
             }
         }
     }

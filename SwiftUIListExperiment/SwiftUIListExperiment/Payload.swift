@@ -10,5 +10,5 @@ import SwiftUI
 
 struct Payload: Identifiable {
     let id: Int
-    let image: Image
+    let imagePath: String
 }

@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8417849C2C5F9B7B001A9CA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841784992C5F9B7A001A9CA5 /* ContentView.swift */; };
-		8417849D2C5F9B7B001A9CA5 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417849A2C5F9B7B001A9CA5 /* Payload.swift */; };
-		8417849E2C5F9B7B001A9CA5 /* PayloadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417849B2C5F9B7B001A9CA5 /* PayloadViewModel.swift */; };
+		844F9D852C5FC64200D37C63 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F9D822C5FC64100D37C63 /* Payload.swift */; };
+		844F9D862C5FC64200D37C63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F9D832C5FC64200D37C63 /* ContentView.swift */; };
+		844F9D872C5FC64200D37C63 /* PayloadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F9D842C5FC64200D37C63 /* PayloadViewModel.swift */; };
 		84ECBB912C5F996C00F17CE3 /* SwiftUIListExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECBB902C5F996C00F17CE3 /* SwiftUIListExperimentApp.swift */; };
 		84ECBB952C5F996E00F17CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ECBB942C5F996E00F17CE3 /* Assets.xcassets */; };
 		84ECBB982C5F996E00F17CE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ECBB972C5F996E00F17CE3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		841784992C5F9B7A001A9CA5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8417849A2C5F9B7B001A9CA5 /* Payload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
-		8417849B2C5F9B7B001A9CA5 /* PayloadViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayloadViewModel.swift; sourceTree = "<group>"; };
+		844F9D822C5FC64100D37C63 /* Payload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		844F9D832C5FC64200D37C63 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		844F9D842C5FC64200D37C63 /* PayloadViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayloadViewModel.swift; sourceTree = "<group>"; };
 		84ECBB8D2C5F996C00F17CE3 /* SwiftUIListExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIListExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ECBB902C5F996C00F17CE3 /* SwiftUIListExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListExperimentApp.swift; sourceTree = "<group>"; };
 		84ECBB942C5F996E00F17CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,10 +56,10 @@
 			isa = PBXGroup;
 			children = (
 				84ECBB902C5F996C00F17CE3 /* SwiftUIListExperimentApp.swift */,
+				844F9D832C5FC64200D37C63 /* ContentView.swift */,
+				844F9D822C5FC64100D37C63 /* Payload.swift */,
+				844F9D842C5FC64200D37C63 /* PayloadViewModel.swift */,
 				84ECBB942C5F996E00F17CE3 /* Assets.xcassets */,
-				841784992C5F9B7A001A9CA5 /* ContentView.swift */,
-				8417849A2C5F9B7B001A9CA5 /* Payload.swift */,
-				8417849B2C5F9B7B001A9CA5 /* PayloadViewModel.swift */,
 				84ECBB962C5F996E00F17CE3 /* Preview Content */,
 			);
 			path = SwiftUIListExperiment;
@@ -143,10 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8417849D2C5F9B7B001A9CA5 /* Payload.swift in Sources */,
-				8417849C2C5F9B7B001A9CA5 /* ContentView.swift in Sources */,
+				844F9D852C5FC64200D37C63 /* Payload.swift in Sources */,
 				84ECBB912C5F996C00F17CE3 /* SwiftUIListExperimentApp.swift in Sources */,
-				8417849E2C5F9B7B001A9CA5 /* PayloadViewModel.swift in Sources */,
+				844F9D862C5FC64200D37C63 /* ContentView.swift in Sources */,
+				844F9D872C5FC64200D37C63 /* PayloadViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

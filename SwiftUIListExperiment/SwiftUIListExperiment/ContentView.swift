@@ -22,7 +22,8 @@ struct PayloadRow: View {
     var body: some View {
         HStack {
             
-            payload.image
+            
+            Image(payload.imagePath, bundle: .main)
                 .resizable()
                 .frame(width: 100, height: 100)
             Text("Payload \(payload.id)")
